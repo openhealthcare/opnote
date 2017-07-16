@@ -1,0 +1,3 @@
+recursive-include opnote/static *
+recursive-include opnote/assets *
+recursive-include opnote/templates *
