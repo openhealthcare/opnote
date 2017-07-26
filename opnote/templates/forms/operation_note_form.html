@@ -1,5 +1,7 @@
 {% load forms %}
 {% datepicker  field="OperationNote.date"  %}
+{% timepicker field="OperationNote.start_time" %}
+{% timepicker field="OperationNote.end_time" %}
 {% checkbox  field="OperationNote.dvt_heparin"  %}
 {% checkbox  field="OperationNote.dvt_ted_stockings"  %}
 {% checkbox  field="OperationNote.dvt_pnematic"  %}
@@ -16,6 +18,3 @@
 {% input  field="OperationNote.asa"  %}
 {% input  field="OperationNote.anaesthetic"  %}
 {% input  field="OperationNote.urgency"  %}
-
-{% timepicker field="OperationNote.start_time" %}
-{% timepicker field="OperationNote.end_time" %}
