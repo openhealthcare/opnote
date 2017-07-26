@@ -42,7 +42,7 @@ class Urgency(LookupList):
 
 class StaffMember(LookupList):
     pass
-    
+
 class OperationNote(models.EpisodeSubrecord):
 
     start_time = fields.TimeField()
