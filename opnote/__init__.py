@@ -7,6 +7,7 @@ class Application(application.OpalApplication):
     javascripts   = [
         'js/opnote/routes.js',
         'js/opal/controllers/discharge.js',
+        'js/opnote/directives.js',
         # Uncomment this if you want to implement custom dynamic flows.
         # 'js/opnote/flow.js',
     ]

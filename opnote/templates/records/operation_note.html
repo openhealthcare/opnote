@@ -1,15 +1,5 @@
-<span ng-show="item.start_time">
-    [[ item.start_time ]]
-   <br />
-</span>
-<span ng-show="item.end_time">
-    [[ item.end_time ]]
-   <br />
-</span>
-<span ng-show="item.date">
-    [[ item.date | shortDate ]]
-   <br />
-</span>
+[[ item.date | shortDate ]] [[ item.start_time | shortTime ]] - [[ item.end_time | shortTime ]]
+<br />
 <span ng-show="item.dvt_heparin">
      Dvt Heparin
    <br />
@@ -74,15 +64,15 @@
     [[ item.urgency ]]
    <br />
 </span>
-<span ng-show="item.surgeon">
+<span ng-show="item.surgeon.length">
     [[ item.surgeon ]]
    <br />
 </span>
-<span ng-show="item.assistant">
+<span ng-show="item.assistant.length">
     [[ item.assistant ]]
    <br />
 </span>
-<span ng-show="item.anaesthetist">
+<span ng-show="item.anaesthetist.length">
     [[ item.anaesthetist ]]
    <br />
 </span>
